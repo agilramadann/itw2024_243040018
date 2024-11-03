@@ -1,0 +1,119 @@
+body {
+    line-height: 1;
+    font: 16px/28px arial, sans-serif;
+    background-image: url(foto1.jpg);
+    color: white;
+    
+
+
+}
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: -10px;
+    background-color: black;
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 0px;
+
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.hero {
+    height: 500px;
+    background-image: url('logo.jpg');
+    background-size: cover;
+    background-position: -30px -0px;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+.content .penulis a:hover{
+    background-color: rgba(100, 161, 204, 0.616);
+    color: #ffffff;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+.hero2 {
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-image: url(foto2.jpg);
+    background-position: 0 -px;
+}
+.hero3 {
+    width: 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-image: url(foto3.jpg);
+    background-position: 0 -200px;
+}
+.hero4 {
+    width: 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-image: url(foto4.jpg);
+    background-position: 0 -200px;
+
+}
+.header h1 {
+    text-align: center;
+    background-color: black;
+}
+
+.isi {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+}
